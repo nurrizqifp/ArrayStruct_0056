@@ -23,6 +23,7 @@ int main(){
     cin >> mhs.nim;
     cin.ignore(); //menambahkan ignore untuk mengabaikan cin
     cout << "Masukkan Nama = ";
+    getline(cin, mhs.nama); //mengganti cin menjadi getline agar bisa input data yang mengandung spasi
     cout << "Masukkan Alamat Desa = ";
     cin >> mhs.alamat.desa;
     cout << "Masukkan Alamat Kota = ";
