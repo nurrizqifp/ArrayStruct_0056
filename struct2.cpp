@@ -29,4 +29,11 @@ int main(){
     cin >> mhs.alamat.kota;
 
     cout << endl;
+    //Display Data Mahasiswa
+    cout << "Data Mahasiswa" << endl;
+    
+    cout << "NIM = " << mhs.nim << endl;
+    cout << "Nama = " << mhs.nama << endl;
+    cout << "Alamat Desa = " << mhs.alamat.desa << endl;
+    cout << "Alamat Kota = " << mhs.alamat.kota << endl;
 }
